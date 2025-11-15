@@ -1,0 +1,943 @@
+.pagina {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1728px;
+  height: 3202px;
+  position: relative;
+}
+
+.pagina .rectangle {
+  position: absolute;
+  top: 170px;
+  left: -6px;
+  width: 1728px;
+  height: 235px;
+  background-color: #ededed;
+  box-shadow: inset 0px 6px 30px #00000040;
+}
+
+.pagina .line {
+  position: absolute;
+  top: 299px;
+  left: 452px;
+  width: 824px;
+  height: 10px;
+}
+
+.pagina .CONE {
+  position: absolute;
+  top: 41px;
+  left: 823px;
+  width: 83px;
+  height: 124px;
+  aspect-ratio: 0.67;
+  object-fit: cover;
+}
+
+.pagina .cancelamento {
+  position: absolute;
+  top: 188px;
+  left: 758px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "SF Pro Rounded-Bold", Helvetica;
+  font-weight: 400;
+  color: #0e4194;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina .text-wrapper {
+  font-weight: 700;
+}
+
+.pagina .span {
+  font-family: "SF Pro Rounded-Regular", Helvetica;
+}
+
+.pagina .div {
+  position: absolute;
+  top: 482px;
+  left: calc(50.00% - 396px);
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "SF Pro Rounded-Semibold", Helvetica;
+  font-weight: 400;
+  color: #0e4194;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina .text-wrapper-2 {
+  position: absolute;
+  top: 534px;
+  left: calc(50.00% - 234px);
+  width: 468px;
+  font-family: "SF Pro Rounded-Semibold", Helvetica;
+  font-weight: 400;
+  color: #0e41940a;
+  font-size: 90px;
+  letter-spacing: 13.50px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina .text-wrapper-3 {
+  left: calc(50.00% + 234px);
+  position: absolute;
+  top: 534px;
+  width: 453px;
+  font-family: "SF Pro Rounded-Semibold", Helvetica;
+  font-weight: 400;
+  color: #0e419403;
+  font-size: 90px;
+  letter-spacing: 13.50px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina .text-wrapper-4 {
+  left: calc(50.00% - 701px);
+  position: absolute;
+  top: 534px;
+  width: 453px;
+  font-family: "SF Pro Rounded-Semibold", Helvetica;
+  font-weight: 400;
+  color: #0e419403;
+  font-size: 90px;
+  letter-spacing: 13.50px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina .p {
+  position: absolute;
+  top: 622px;
+  left: calc(46.00% - 676px);
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "SF Pro Rounded-Light", Helvetica;
+  font-weight: 300;
+  color: #0e4194;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina .rectangle-2 {
+  position: absolute;
+  top: 297px;
+  left: 452px;
+  width: 208px;
+  height: 13px;
+  background-color: #0e4194;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.pagina .ellipse {
+  position: absolute;
+  top: 246px;
+  left: 345px;
+  width: 111px;
+  height: 111px;
+  background-color: #0e4194;
+  border-radius: 55.5px;
+  box-shadow: inset 0px 8px 15px #0000004c;
+}
+
+.pagina .ellipse-2 {
+  position: absolute;
+  top: 246px;
+  left: 654px;
+  width: 111px;
+  height: 111px;
+  background-color: #0e4194;
+  border-radius: 55.5px;
+  box-shadow: inset 0px 8px 15px #0000004c;
+}
+
+.pagina .ellipse-3 {
+  position: absolute;
+  top: 248px;
+  left: 963px;
+  width: 111px;
+  height: 111px;
+  background-color: #ffffff;
+  border-radius: 55.5px;
+  aspect-ratio: 1;
+}
+
+.pagina .ellipse-4 {
+  position: absolute;
+  top: 246px;
+  left: 1272px;
+  width: 111px;
+  height: 111px;
+  background-color: #ffffff;
+  border-radius: 55.5px;
+  aspect-ratio: 1;
+}
+
+.pagina .material-symbols {
+  position: absolute;
+  top: 262px;
+  left: 360px;
+  width: 80px;
+  height: 80px;
+  aspect-ratio: 1;
+}
+
+.pagina .vector {
+  position: absolute;
+  width: 75.00%;
+  height: 41.67%;
+  top: 29.17%;
+  left: 12.50%;
+}
+
+.pagina .cuida-lamp-on {
+  position: absolute;
+  top: 263px;
+  left: 671px;
+  width: 77px;
+  height: 77px;
+  aspect-ratio: 1;
+}
+
+.pagina .hugeicons-note {
+  position: absolute;
+  top: 270px;
+  left: 983px;
+  width: 70px;
+  height: 70px;
+  aspect-ratio: 1;
+}
+
+.pagina .group {
+  position: relative;
+  width: 83.33%;
+  height: 83.33%;
+  top: 8.33%;
+  left: 8.33%;
+}
+
+.pagina .img {
+  position: absolute;
+  width: 75.00%;
+  height: 85.00%;
+  top: -4.29%;
+  left: 20.71%;
+}
+
+.pagina .vector-2 {
+  position: absolute;
+  width: 50.00%;
+  height: 75.00%;
+  top: 20.71%;
+  left: -4.29%;
+}
+
+.pagina .line-md-circle-to {
+  position: absolute;
+  top: 262px;
+  left: 1288px;
+  width: 80px;
+  height: 80px;
+  aspect-ratio: 1;
+}
+
+.pagina .group-2 {
+  position: relative;
+  width: 75.00%;
+  height: 75.00%;
+  top: 12.50%;
+  left: 12.50%;
+}
+
+.pagina .vector-3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -5.56%;
+  left: -5.56%;
+}
+
+.pagina .vector-4 {
+  position: absolute;
+  width: 44.44%;
+  height: 27.78%;
+  top: 33.33%;
+  left: 22.22%;
+}
+
+.pagina .rectangle-3 {
+  position: absolute;
+  top: 1503px;
+  left: 149px;
+  width: 582px;
+  height: 492px;
+  object-fit: cover;
+}
+
+.pagina .rectangle-4 {
+  position: absolute;
+  width: 0;
+  height: 4.84%;
+  top: 57.46%;
+  left: 7.87%;
+  background-color: #0e4194;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.pagina .ellipse-5 {
+  position: absolute;
+  top: 1822px;
+  left: 533px;
+  width: 238px;
+  height: 238px;
+  background-color: #ffffff;
+  border-radius: 119px;
+}
+
+.pagina .ellipse-6 {
+  position: absolute;
+  top: 1886px;
+  left: 598px;
+  width: 89px;
+  height: 89px;
+  border-radius: 44.5px;
+  background: linear-gradient(
+    137deg,
+    rgba(14, 65, 148, 1) 0%,
+    rgba(0, 31, 82, 1) 100%
+  );
+}
+
+.pagina .CONE-2 {
+  top: 1907px;
+  left: 627px;
+  position: absolute;
+  width: 31px;
+  height: 47px;
+  aspect-ratio: 0.66;
+}
+
+.pagina .group-3 {
+  position: absolute;
+  top: 767px;
+  left: calc(50.00% - 728px);
+  width: 1467px;
+  height: 572px;
+}
+
+.pagina .um-mundo-de {
+  position: absolute;
+  top: 0;
+  left: calc(50.00% - 46px);
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "SF Pro Rounded-Semibold", Helvetica;
+  font-weight: 400;
+  color: #0e4194;
+  font-size: 55px;
+  letter-spacing: 0;
+  line-height: 65px;
+}
+
+.pagina .text-wrapper-5 {
+  position: absolute;
+  top: 530px;
+  left: calc(50.00% + 414px);
+  width: 282px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "SF Pro Rounded-Semibold", Helvetica;
+  font-weight: 400;
+  color: #0e4194;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: 65px;
+  white-space: nowrap;
+}
+
+.pagina .mantenha-acesso-aos {
+  position: absolute;
+  top: 409px;
+  left: calc(50.00% + 66px);
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "SF Pro Rounded-Semibold", Helvetica;
+  font-weight: 400;
+  color: #0e4194;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.pagina .rectangle-5 {
+  position: absolute;
+  width: 0;
+  height: 27.11%;
+  top: 61.36%;
+  left: 0;
+  background-color: #0e4194;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.pagina .gemini-generated {
+  position: absolute;
+  top: 14px;
+  left: 13px;
+  width: 582px;
+  height: 492px;
+  aspect-ratio: 1.18;
+}
+
+.pagina .ellipse-7 {
+  position: absolute;
+  top: 333px;
+  left: 397px;
+  width: 238px;
+  height: 238px;
+  background-color: #ffffff;
+  border-radius: 119px;
+}
+
+.pagina .ellipse-8 {
+  position: absolute;
+  top: 397px;
+  left: 462px;
+  width: 89px;
+  height: 89px;
+  border-radius: 44.5px;
+  background: linear-gradient(
+    137deg,
+    rgba(14, 65, 148, 1) 0%,
+    rgba(0, 31, 82, 1) 100%
+  );
+}
+
+.pagina .CONE-3 {
+  top: 418px;
+  left: 491px;
+  position: absolute;
+  width: 31px;
+  height: 47px;
+  aspect-ratio: 0.66;
+}
+
+.pagina .aqui-na-engplay-voc {
+  position: absolute;
+  width: 51.53%;
+  height: 50.84%;
+  top: 26.05%;
+  left: 47.78%;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "SF Pro Rounded-Light", Helvetica;
+  font-weight: 300;
+  color: #00000080;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pagina .text-wrapper-6 {
+  position: absolute;
+  width: 19.15%;
+  height: 6.82%;
+  top: 87.59%;
+  left: 78.25%;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "SF Pro Rounded-Light", Helvetica;
+  font-weight: 300;
+  color: #00000080;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pagina .line-2 {
+  position: absolute;
+  top: 149px;
+  left: 686px;
+  width: 4px;
+  height: 183px;
+}
+
+.pagina .boto-continuar {
+  position: absolute;
+  top: 507px;
+  left: 687px;
+  width: 242px;
+  height: 65px;
+  border-radius: 10px;
+  background: linear-gradient(
+    171deg,
+    rgba(14, 65, 148, 1) 0%,
+    rgba(0, 31, 82, 1) 100%
+  );
+}
+
+.pagina .aceitar {
+  position: absolute;
+  width: 92.56%;
+  height: 55.38%;
+  top: 21.79%;
+  left: 3.32%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "SF Pro Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina .ellipse-9 {
+  position: absolute;
+  top: 506px;
+  left: 1070px;
+  width: 66px;
+  height: 66px;
+  border-radius: 33px;
+  background: linear-gradient(
+    141deg,
+    rgba(14, 65, 148, 1) 0%,
+    rgba(0, 31, 82, 1) 100%
+  );
+}
+
+.pagina .fluent-call {
+  position: absolute;
+  top: 510px;
+  left: 1073px;
+  width: 59px;
+  height: 59px;
+  aspect-ratio: 1;
+}
+
+.pagina .vector-5 {
+  position: absolute;
+  width: 50.85%;
+  height: 69.49%;
+  top: 15.25%;
+  left: 25.42%;
+}
+
+.pagina .fluent-people-team {
+  position: absolute;
+  top: 373px;
+  left: 695px;
+  width: 89px;
+  height: 89px;
+  aspect-ratio: 1;
+}
+
+.pagina .vector-6 {
+  position: absolute;
+  width: 87.50%;
+  height: 74.99%;
+  top: 12.51%;
+  left: 6.25%;
+}
+
+.pagina .mais-que-conte-do {
+  position: absolute;
+  top: 1503px;
+  left: calc(50.00% - 41px);
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "SF Pro Rounded-Semibold", Helvetica;
+  font-weight: 400;
+  color: #0e4194;
+  font-size: 55px;
+  letter-spacing: 0;
+  line-height: 65px;
+}
+
+.pagina .al-m-de-entregarmos {
+  position: absolute;
+  width: 43.75%;
+  height: 9.08%;
+  top: 51.59%;
+  left: 48.44%;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "SF Pro Rounded-Light", Helvetica;
+  font-weight: 300;
+  color: #00000080;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pagina .line-3 {
+  position: absolute;
+  top: 1652px;
+  left: 822px;
+  width: 4px;
+  height: 207px;
+}
+
+.pagina .mantenha-acesso-a {
+  position: absolute;
+  top: 1906px;
+  left: calc(50.00% + 72px);
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "SF Pro Rounded-Semibold", Helvetica;
+  font-weight: 400;
+  color: #0e4194;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.pagina .text-wrapper-7 {
+  width: 16.20%;
+  top: 62.55%;
+  position: absolute;
+  height: 0;
+  left: 74.65%;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "SF Pro Rounded-Light", Helvetica;
+  font-weight: 300;
+  color: #00000080;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pagina .ellipse-10 {
+  position: absolute;
+  top: 2009px;
+  left: 1206px;
+  width: 66px;
+  height: 66px;
+  border-radius: 33px;
+  background: linear-gradient(
+    141deg,
+    rgba(14, 65, 148, 1) 0%,
+    rgba(0, 31, 82, 1) 100%
+  );
+}
+
+.pagina .vector-wrapper {
+  top: 2013px;
+  position: absolute;
+  left: 1209px;
+  width: 59px;
+  height: 59px;
+  aspect-ratio: 1;
+}
+
+.pagina .text-wrapper-8 {
+  top: 2033px;
+  position: absolute;
+  left: calc(50.00% + 420px);
+  width: 282px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "SF Pro Rounded-Semibold", Helvetica;
+  font-weight: 400;
+  color: #0e4194;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: 65px;
+  white-space: nowrap;
+}
+
+.pagina .rectangle-6 {
+  position: absolute;
+  width: 14.00%;
+  height: 2.03%;
+  top: 62.77%;
+  left: 47.63%;
+  border-radius: 10px;
+  background: linear-gradient(
+    171deg,
+    rgba(14, 65, 148, 1) 0%,
+    rgba(0, 31, 82, 1) 100%
+  );
+}
+
+.pagina .aceitar-2 {
+  top: 63.8%;
+  position: absolute;
+  width: 12.96%;
+  height: 0;
+  left: 48.09%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "SF Pro Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina .tabler-tools {
+  position: absolute;
+  top: 1883px;
+  left: 837px;
+  width: 80px;
+  height: 80px;
+  aspect-ratio: 1;
+}
+
+.pagina .vector-7 {
+  position: absolute;
+  width: 99.05%;
+  height: 99.05%;
+  top: -4.60%;
+  left: -5.56%;
+}
+
+.pagina .rectangle-7 {
+  position: absolute;
+  top: 2239px;
+  left: 149px;
+  width: 582px;
+  height: 492px;
+  object-fit: cover;
+}
+
+.pagina .rectangle-8 {
+  position: absolute;
+  width: 0;
+  height: 4.84%;
+  top: 80.45%;
+  left: 7.87%;
+  background-color: #0e4194;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.pagina .ellipse-11 {
+  position: absolute;
+  top: 2558px;
+  left: 533px;
+  width: 238px;
+  height: 238px;
+  background-color: #ffffff;
+  border-radius: 119px;
+}
+
+.pagina .ellipse-12 {
+  position: absolute;
+  top: 2622px;
+  left: 598px;
+  width: 89px;
+  height: 89px;
+  border-radius: 44.5px;
+  background: linear-gradient(
+    137deg,
+    rgba(14, 65, 148, 1) 0%,
+    rgba(0, 31, 82, 1) 100%
+  );
+}
+
+.pagina .CONE-4 {
+  top: 2643px;
+  left: 627px;
+  position: absolute;
+  width: 31px;
+  height: 47px;
+  aspect-ratio: 0.66;
+}
+
+.pagina .mais-que-ferramentas {
+  position: absolute;
+  top: 2239px;
+  left: calc(50.00% - 41px);
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "SF Pro Rounded-Semibold", Helvetica;
+  font-weight: 400;
+  color: #0e4194;
+  font-size: 55px;
+  letter-spacing: 0;
+  line-height: 65px;
+}
+
+.pagina .nosso-foco-n-o {
+  position: absolute;
+  width: 43.75%;
+  height: 9.08%;
+  top: 74.58%;
+  left: 48.44%;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "SF Pro Rounded-Light", Helvetica;
+  font-weight: 300;
+  color: #00000080;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pagina .line-4 {
+  position: absolute;
+  top: 2388px;
+  left: 822px;
+  width: 4px;
+  height: 207px;
+}
+
+.pagina .mantenha-seu-acesso {
+  position: absolute;
+  top: 2642px;
+  left: calc(50.00% + 72px);
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "SF Pro Rounded-Semibold", Helvetica;
+  font-weight: 400;
+  color: #0e4194;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.pagina .text-wrapper-9 {
+  width: 15.16%;
+  top: 85.57%;
+  position: absolute;
+  height: 0;
+  left: 74.65%;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "SF Pro Rounded-Light", Helvetica;
+  font-weight: 300;
+  color: #00000080;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pagina .ellipse-13 {
+  position: absolute;
+  top: 2745px;
+  left: 1206px;
+  width: 66px;
+  height: 66px;
+  border-radius: 33px;
+  background: linear-gradient(
+    141deg,
+    rgba(14, 65, 148, 1) 0%,
+    rgba(0, 31, 82, 1) 100%
+  );
+}
+
+.pagina .img-wrapper {
+  top: 2749px;
+  position: absolute;
+  left: 1209px;
+  width: 59px;
+  height: 59px;
+  aspect-ratio: 1;
+}
+
+.pagina .text-wrapper-10 {
+  top: 2769px;
+  position: absolute;
+  left: calc(50.00% + 420px);
+  width: 282px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "SF Pro Rounded-Semibold", Helvetica;
+  font-weight: 400;
+  color: #0e4194;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: 65px;
+  white-space: nowrap;
+}
+
+.pagina .rectangle-9 {
+  position: absolute;
+  width: 14.00%;
+  height: 2.03%;
+  top: 85.76%;
+  left: 47.63%;
+  border-radius: 10px;
+  background: linear-gradient(
+    171deg,
+    rgba(14, 65, 148, 1) 0%,
+    rgba(0, 31, 82, 1) 100%
+  );
+}
+
+.pagina .aceitar-3 {
+  top: 86.8%;
+  position: absolute;
+  width: 12.96%;
+  height: 0;
+  left: 48.09%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "SF Pro Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina .nimbus-share {
+  position: absolute;
+  width: 4.98%;
+  top: 2616px;
+  left: 48.21%;
+  height: 86px;
+  aspect-ratio: 1;
+}
+
+.pagina .vector-8 {
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  top: 20%;
+  left: 0;
+}
+
+.pagina .boto-seguir-com-o {
+  position: absolute;
+  top: 3005px;
+  left: calc(50.00% - 433px);
+  width: 866px;
+  height: 79px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px #0000004c;
+  background: linear-gradient(
+    171deg,
+    rgba(14, 65, 148, 1) 0%,
+    rgba(0, 31, 82, 1) 100%
+  );
+}
+
+.pagina .text-wrapper-24 {
+  position: absolute;
+  width: 60.20%;
+  height: 70%;
+  top: 23%;
+  left: 19.86%;
+  font-family: "SF Pro Rounded-Semibold", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
